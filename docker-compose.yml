@@ -11,7 +11,7 @@ services:
       mysql:
         condition: service_healthy
 
-  mysl:
+  mysql:
     image: mysql:8.4
     container_name: resource-tracker-mysql
     restart: unless-stopped
